@@ -29,7 +29,8 @@ Vue.component(CommentEditor.name, CommentEditor)
 
 ## Screenshots
 
-
+![comment-editor](/screenshots/1.gif)
+![comment-editor](/screenshots/2.gif)
 
 ## Props
 
