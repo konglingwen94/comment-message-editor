@@ -1,6 +1,6 @@
 module.exports = {
   lintOnSave: 'warning',
-  publicPath:"./",
+  publicPath:"comment-message-editor",
   runtimeCompiler: true,
   css: { extract: false },
   chainWebpack(config) {
