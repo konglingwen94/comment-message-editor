@@ -7,9 +7,7 @@
         v-on="listeners"
         v-bind="$attrs"
         :contenteditable="contenteditable"
-      >
-       
-      </div>
+      ></div>
       <div class="append-wrapper">
         <slot name="append"></slot>
       </div>
@@ -76,14 +74,21 @@ export default {
 <style scoped lang="less">
 .input-box-wrapper {
   position: relative;
+  
 }
 
 .content {
-   &.textarea{
-     min-height:2.7em;
-   }
-  //  min-height:1em;
-  //  line-height:1em;
+  max-height: 5em;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+  &.textarea {
+    min-height: 2.7em;
+  }
+  &.text {
+    min-height: 1.2em;
+  }
 
   &:empty:before {
     content: attr(placeholder);
@@ -102,6 +107,7 @@ export default {
   border: 1px solid #ccc;
   border-radius: 3px;
   padding: 7px 10px;
+  padding-right: 30px;
   position: relative;
 }
 

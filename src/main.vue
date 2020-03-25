@@ -132,7 +132,7 @@ export default {
     width: 30px;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 
     &.hasbg {
@@ -153,6 +153,7 @@ export default {
   color: #ccc;
 }
 .submit-button {
+  align-self:flex-end;
   transition:all 0.2s;
   background: #409eff;
   border-radius: 4px;
