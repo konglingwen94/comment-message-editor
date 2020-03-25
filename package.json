@@ -1,0 +1,13 @@
+{
+  "name": "comment-message-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vue serve test/main.js",
+    "build":"vue-cli-service build --target lib index.js"
+  },
+  "keywords": ["message-editor","editor","comment-editor"],
+  "author": "konglingwen",
+  "license": "ISC"
+}
