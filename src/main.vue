@@ -82,6 +82,9 @@ export default {
     document.addEventListener('click', this.hideButton)
   },
   methods: {
+    focus(){
+      this.$refs.inputBox.focus()
+    },
     hideButton(e) {
       if (this.$refs.container.contains(e.target)) {
         return
