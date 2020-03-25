@@ -1,6 +1,6 @@
 module.exports = {
   lintOnSave: 'warning',
-  publicPath:"./docs",
+  publicPath:"./",
   runtimeCompiler: true,
   css: { extract: false },
   chainWebpack(config) {
