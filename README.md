@@ -2,7 +2,8 @@
 
 A refined, customizable comment editor based on Vue
 
->Live Demo https://konglingwen94.github.io/comment-message-editor/index.html
+## Live Demo
+>https://konglingwen94.github.io/comment-message-editor/index.html
 
 ## Install
 
